@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StudyTips.Views.DetailPage"
+             BackgroundColor="White">
+
+    <NavigationPage.TitleView>
+        <Label x:Name="title" Text="{Binding caption}" MaxLines="1" TextColor="White" FontSize="30" VerticalOptions="Center" />
+    </NavigationPage.TitleView>
+    
+    <!-- Add an item to the toolbar -->
+    <ContentPage.ToolbarItems>
+        <!-- <ToolbarItem Text="Add" IconImageSource="{FontImage Glyph='+', Color=White, Size=22}" /> -->
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <!-- Display notes in a list -->
+            <CollectionView x:Name="detailContent"
+                    ItemsSource="{Binding detailItemList}"
+                    Margin="10, 10"
+                    SelectionMode="Single"
+                    SelectionChanged="detailContent_SelectionChanged">
+
+                <!-- Designate how the collection of items are laid out -->
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="5" />
+                </CollectionView.ItemsLayout>
+
+                <!-- Define the appearance of each item in the list -->
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid RowDefinitions="90, 10" ColumnDefinitions="100, *">
+                            <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"
+                            Stroke="#808080"
+                            HeightRequest="80" WidthRequest="80"
+                            StrokeShape="RoundRectangle 40,40,40,40"
+                            HorizontalOptions="Center"
+                            StrokeThickness="1"
+                            Margin="0,0,0,0">
+                            </Border>
+
+                            <Label Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Text="{Binding index}" FontSize="20" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            <Label Grid.Row="0" Grid.Column="1" Text="{Binding description}" FontSize="22" TextColor="Black" VerticalOptions="Start"/>
+                            <BoxView Grid.Row="1" Grid.Column="1" Color="Gray"  HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

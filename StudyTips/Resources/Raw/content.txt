@@ -1,0 +1,54 @@
+1#0#Steps to Effect Study#dotnet_bot.png
+2#0#Study Setting#dotnet_bot.png
+3#0#Fast and Effective Study Tips#dotnet_bot.png
+4#0#Study Setting#dotnet_bot.png
+5#0#Fast and Effective Study Tips#dotnet_bot.png
+6#0#Study Setting#dotnet_bot.png
+7#0#Fast and Effective Study Tips#dotnet_bot.png
+8#0#Study Settings#dotnet_bot.png
+9#0#Fast and Effective Study Tips#dotnet_bot.png
+10#0#Study Setting#dotnet_bot.png
+11#0#Fast and Effective Study Tips#dotnet_bot.png
+
+101#1#Put your books and materials down and stretch for a minute or two.
+102#1#Sit down, put your head down, and take 4 deep breaths.
+103#1#Sit down, put your head down, and take 4 deep breaths.
+104#1#Sit down, put your head down, and take 4 deep breaths.
+105#1#Sit down, put your head down, and take 4 deep breaths.
+106#1#Sit down, put your head down, and take 4 deep breaths.
+107#1#Sit down, put your head down, and take 4 deep breaths.
+108#1#Sit down, put your head down, and take 4 deep breaths.
+109#1#Sit down, put your head down, and take 4 deep breaths.
+110#1#Sit down, put your head down, and take 4 deep breaths.
+
+201#2#Leave and study at the library if your home or dorm setting is too distracting.
+202#2#Stop the distractions; impose an Electronic Lockdown by turning off email, text messages, phones and music.
+
+301#3#Do not do all your studying the night before. Instead spread it out, review class materials several times a week, and focus on one topic at a time.
+
+401#4#Do not do all your studying the night before. Instead spread it out, review class materials several times a week, and focus on one topic at a time.
+
+501#5#Do not do all your studying the night before. Instead spread it out, review class materials several times a week, and focus on one topic at a time.
+
+601#6#Do not do all your studying the night before. Instead spread it out, review class materials several times a week, and focus on one topic at a time.
+
+701#7#Do not do all your studying the night before. Instead spread it out, review class materials several times a week, and focus on one topic at a time.
+
+801#8#Do not do all your studying the night before. Instead spread it out, review class materials several times a week, and focus on one topic at a time.
+
+901#9#Do not do all your studying the night before. Instead spread it out, review class materials several times a week, and focus on one topic at a time.
+
+1001#10#Do not do all your studying the night before. Instead spread it out, review class materials several times a week, and focus on one topic at a time.
+
+1011#11#Do not do all your studying the night before. Instead spread it out, review class materials several times a week, and focus on one topic at a time.
+
+10001#0#dotnet_bot.png
+10002#0#dotnet_bot.png
+10003#0#dotnet_bot.png
+10004#0#dotnet_bot.png
+10005#0#dotnet_bot.png
+10006#0#dotnet_bot.png
+10007#0#dotnet_bot.png
+10008#0#dotnet_bot.png
+10009#0#dotnet_bot.png
+10010#0#dotnet_bot.png
